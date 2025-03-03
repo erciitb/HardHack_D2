@@ -13,7 +13,7 @@
    ```
    winget install usbipd
    ```
-4. Download and install Docker Desktop from the official website
+4. Download and install Docker Desktop from the official website - https://docs.docker.com/desktop/setup/install/windows-install/
 5. Reboot your computer after installation
 
 ### Running ChipWhisperer Docker Image
@@ -46,9 +46,8 @@ To connect your ChipWhisperer hardware to the Docker container via WSL:
 
 ## Linux Setup
 
-1. Install Docker from the official website
+1. Install Docker from the official website - https://docs.docker.com/desktop/setup/install/linux/ubuntu/
    * Follow the installation steps provided in the documentation
-   * Complete the post-installation steps as mentioned in the official website for Linux
 2. Run the ChipWhisperer Docker image with the following command:
    ```
    docker run -it --device=/dev/bus/usb:/dev/bus/usb --privileged -p 8888:8888 saravan29/hhh-notebooks4:latest

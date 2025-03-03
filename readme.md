@@ -29,6 +29,7 @@
 6. Navigate to `localhost:8888`
 7. Enter the password: `bob`
 8. To close/open it again you toggle the play button in contianer section of the app as shown below
+   <img width="1506" alt="Image" src="https://github.com/user-attachments/assets/4493033a-9b57-405d-bc5a-5a1e00bd572c" />
 
 ### Connecting Hardware (Windows)
 To connect your ChipWhisperer hardware to the Docker container via WSL:

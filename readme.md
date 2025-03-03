@@ -23,10 +23,12 @@
    ```
    docker run -it --device=/dev/bus/usb:/dev/bus/usb --privileged -p 8888:8888 saravan29/hhh-notebooks4:latest
    ```
-4. After the docker image downloads and runs, open your browser
-5. Navigate to `localhost:8888`
-6. Enter the password: `bob`
-7. To close/open it again you toggle the play button in contianer section of the app as shown below
+4. Wait till the docker image gets downloaded and your output looks like this
+    <img width="1506" alt="Image" src="https://github.com/user-attachments/assets/a94b8391-f17c-4077-aa38-f8b3fb66e7b7" />
+5. After the docker image downloads and runs, open your browser
+6. Navigate to `localhost:8888`
+7. Enter the password: `bob`
+8. To close/open it again you toggle the play button in contianer section of the app as shown below
 
 ### Connecting Hardware (Windows)
 To connect your ChipWhisperer hardware to the Docker container via WSL:

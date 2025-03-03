@@ -57,3 +57,11 @@ To connect your ChipWhisperer hardware to the Docker container via WSL:
    docker run -it --device=/dev/bus/usb:/dev/bus/usb --privileged -p 8888:8888 saravan29/hhh-notebooks4:latest
    ```
 3. Setup is now complete for both simulation and hardware use
+
+
+###Note 
+1) To install any extra libraries then use pip command to install them in the code block itself and kindly note them somewhere so that we can preinstall them in the final dockerfile for the event ( navigate to libraries.ipynb for more details )
+2) wherever you are ploting any graphs use %%matplotlib widget rather than %%matplotlib notebook (did this change in most of the places , still if you encounter any ploting issue then follow this)
+3) Two folders which are useful for us 
+   * notebooks_main inside the notebooks folder
+   * sca101,sca201,sca202 inside courses inside jupyter folder 

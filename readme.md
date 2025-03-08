@@ -9,11 +9,14 @@
    wsl --install
    ```
    *Skip this step if WSL is already installed*
-3. Install USBIPD:
+   You should get this output after WSL is installed.
+<img width="894" alt="image" src="https://github.com/user-attachments/assets/b9548757-8f50-4a68-8e8f-b228a094595f" />
+
+4. Install USBIPD:
    ```
    winget install usbipd
    ```
-4. Download and install Docker Desktop from the official website - https://docs.docker.com/desktop/setup/install/windows-install/
+5. Download and install Docker Desktop from the official website - https://docs.docker.com/desktop/setup/install/windows-install/
 
 ### Running ChipWhisperer Docker Image
 1. Open Docker Desktop

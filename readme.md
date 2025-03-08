@@ -14,7 +14,6 @@
    winget install usbipd
    ```
 4. Download and install Docker Desktop from the official website - https://docs.docker.com/desktop/setup/install/windows-install/
-5. Reboot your computer after installation
 
 ### Running ChipWhisperer Docker Image
 1. Open Docker Desktop

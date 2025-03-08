@@ -10,7 +10,7 @@
    ```
    *Skip this step if WSL is already installed*
    You should get this output after WSL is installed.
-<img width="894" alt="image" src="https://github.com/user-attachments/assets/b9548757-8f50-4a68-8e8f-b228a094595f" />
+   <img width="894" alt="image" src="https://github.com/user-attachments/assets/b9548757-8f50-4a68-8e8f-b228a094595f" />
 
 4. Install USBIPD:
    ```

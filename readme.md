@@ -11,6 +11,7 @@
    *Skip this step if WSL is already installed*
 
    You should get this output after WSL is installed.
+
    <img width="894" alt="image" src="https://github.com/user-attachments/assets/b9548757-8f50-4a68-8e8f-b228a094595f" />
 
 4. Install USBIPD:
@@ -53,6 +54,11 @@ To connect your ChipWhisperer hardware to the Docker container via WSL:
    usbipd attach --wsl --busid <BUS_ID of chipwhispers>
    ```
 4. Once these steps are completed, you can proceed with hardware operations
+
+   Example:
+
+   ![image](https://github.com/user-attachments/assets/7ed84fb9-b520-4f88-94f3-2c15b38422bc)
+
 
 
 ## Linux Setup

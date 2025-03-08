@@ -26,9 +26,12 @@
     <img width="1506" alt="Image" src="https://github.com/user-attachments/assets/a94b8391-f17c-4077-aa38-f8b3fb66e7b7" />
 5. After the docker image downloads and runs, open your browser
 6. Navigate to `localhost:8888`
-7. Enter the password: `bob`
+7. Enter the password: `bob` and use the notebooks.
 8. To close/open it again you toggle the play button in contianer section of the app as shown below
    <img width="1506" alt="Image" src="https://github.com/user-attachments/assets/4493033a-9b57-405d-bc5a-5a1e00bd572c" />
+9.  With this, your Docker setup for ChipWhisperer is complete. Your final Docker Desktop should now display the ChipWhisperer container (and if you take a closer look, you'll notice that Docker container names can be hilariously creative!)
+ <img width="1387" alt="image" src="https://github.com/user-attachments/assets/15b22422-611b-4395-9a22-b600148f0ae1" />
+
 
 ### Connecting Hardware (Windows) will be doing in the session.
 To connect your ChipWhisperer hardware to the Docker container via WSL:

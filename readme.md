@@ -25,7 +25,7 @@
 2. Run the ChipWhisperer docker image by navigating to the Docker terminal in the bottom right of the app
 3. Enter the following command:
    ```
-   docker run -it --device=/dev/bus/usb:/dev/bus/usb --privileged -p 8888:8888 saravan29/hhh-notebooks4:latest
+   docker run -it --device=/dev/bus/usb:/dev/bus/usb --privileged -p 8888:8888 saravan29/hhh-notebooks5:latest
    ```
 4. Wait till the docker image gets downloaded and your output looks like this
     <img width="1506" alt="Image" src="https://github.com/user-attachments/assets/a94b8391-f17c-4077-aa38-f8b3fb66e7b7" />
@@ -67,7 +67,7 @@ To connect your ChipWhisperer hardware to the Docker container via WSL:
    * Follow the installation steps provided in the documentation
 2. Run the ChipWhisperer Docker image with the following command:
    ```
-   docker run -it --device=/dev/bus/usb:/dev/bus/usb --privileged -p 8888:8888 saravan29/hhh-notebooks4:latest
+   docker run -it --device=/dev/bus/usb:/dev/bus/usb --privileged -p 8888:8888 saravan29/hhh-notebooks5:latest
    ```
 3. Setup is now complete for both simulation and hardware use
 
